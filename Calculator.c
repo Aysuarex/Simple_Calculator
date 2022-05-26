@@ -19,13 +19,13 @@ void main ()
     system("cls");
     
     Start:
-    printf("\n\nSTART...\n Enter the first operand: \n");
+    printf("\n\nSTART...\n Enter the first integer: \n");
     scanf("%d", &a);
 
     printf("Enter an operator(+,-,*,/,%%): \n");
     scanf("%s", &operator);
 
-    printf("Enter the second operand: \n");
+    printf("Enter the second integer: \n");
     scanf("%d", &b);
 
     switch (operator)
@@ -53,7 +53,7 @@ void main ()
         }
         else
         {
-            printf("ERROR! Second Operand cannot be zero!");
+            printf("ERROR! Second integer cannot be zero!");
         }
         break;
         
@@ -62,7 +62,7 @@ void main ()
         if( b != 0){
             printf("%d %% %d = %d\n[The modulus of %d and %d gives %d]\n",a,b,mod, a,b,mod);
         } else{
-            printf("ERROR! Second Operand cannot be zero!");
+            printf("ERROR! Second integer cannot be zero!");
         }
         break;
 

@@ -30,26 +30,26 @@ void main ()
 
     switch (operator)
     {
-    case '+' :
+    case '+':
         add=a+b;
         printf("%d + %d = %d\n[The sum of %d and %d gives %d]\n",a,b,add, a,b,add);
         break;
     
-    case '-' :
+    case '-':
         sub=a-b;
         printf("%d - %d = %d\n[The subtraction of %d from %d gives %d]\n",b,a,sub, b,a,sub);
         break;
         
-    case '*' :
+    case '*':
         mul=a*b;
         printf("%d * %d = %d\n[The product of %d and %d gives %d]\n",a,b,mul, a,b,mul);
         break;
 
-    case '/' :
+    case '/':
         div=a/b;
         if(b != 0)
         {
-            printf("%d / %d = %d\n[The Division of %d by %d gives %d]\n",a,b,div, a,b,div);
+            printf("%d / %d = %d\n[The Division of %d by %d gives approximately %d]\n",a,b,div, a,b,div);
         }
         else
         {
